@@ -5,12 +5,12 @@ const ItemList = ({ items }) => {
 
   return (
     <>
-      <div className="grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-1 lg:grid-cols-3 xl:gap-x-8">
+      <div className="grid mt-12 px-8 md:px-12 grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-1 lg:grid-cols-3 xl:gap-x-8">
         {items?.map((product) => (
           <Item
             key={product.id}
             id={product.id}
-            name={product.title}
+            title={product.title}
             price={product.price}
             img={product.images}
             category={product?.category}

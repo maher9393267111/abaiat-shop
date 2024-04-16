@@ -16,7 +16,7 @@ if(pageLoading) {
 
 
   return (
-    <div dir={dir}>
+    <div dir={'rtl'}>
 
 <Navbar/>
 
