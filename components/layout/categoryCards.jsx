@@ -18,9 +18,9 @@ const PreviewCategories = ({  }) => {
 
     return (
         <div className="bg-white">
-            <div className="py-16 sm:py-24 xl:max-w-7xl xl:mx-auto xl:px-8">
+            <div className="py-4 sm:py-24 xl:max-w-7xl xl:mx-auto xl:px-8">
                 <div className="px-4 sm:px-6 sm:flex sm:items-center -mt-2 sm:justify-between lg:px-8 xl:px-0">
-                    <h2 className="text-2xl  text-gold font-semibold  text-gray-900">اختر الفئة</h2>
+                    <h2 className="text-2xl  text-gold font-semibold  text-gray-900">تسوق حسب الاقسام</h2>
                     <Link href="/products" className="hidden text-xl font-semibold text-gold font-poppins hover:text-brown transition-all duration-150 sm:block">
                         جميع المنتجات<span aria-hidden="true"> &rarr;</span>
                     </Link>
@@ -56,7 +56,7 @@ const PreviewCategories = ({  }) => {
 
                 <div className="mt-6 px-4 sm:hidden">
                     <Link href="/products" className="block text-sm font-bold text-gold font-poppins ">
-                        Browse all categories<span aria-hidden="true"> &rarr;</span>
+                    جميع المنتجات<span aria-hidden="true"> &rarr;</span>
                     </Link>
                 </div>
             </div>
