@@ -24,6 +24,12 @@ module.exports = {
       },
       colors: {
         primary: "#171F49",
+       
+      
+        gold: '#928656',
+        white: '#ffff',
+        brown: '#592C13',
+        gray800: 'rgb(31 41 55)'
       },
 
       animation : {

@@ -16,8 +16,8 @@ const AdminLayout = ({ children }) => {
   const list = [
     // { id: 1, text: "Admin Dashboard", path: "/admin" },
    
-    { id: 4, text: "Add Article", path: "/admin/article/add" },
-    { id: 5, text: "All Articles", path: "/admin/article/all" },
+    { id: 4, text: "Add Product", path: "/admin/article/add" },
+    { id: 5, text: "All Products", path: "/admin/article/all" },
 
   ];
 

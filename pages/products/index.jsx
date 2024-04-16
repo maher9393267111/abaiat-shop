@@ -1,23 +1,20 @@
 import React from "react";
 import { orderBy, where } from "firebase/firestore";
 import { getDocuments, getDocumentsOrder } from "@/functions/firebase/getData";
+import ItemList from "@/components/productsMain/ItemList";
+import Layout from "@/components/layout";
 
-
-
-export default function ProductsPage({
-  products,
-
-}) {
+export default function ProductsPage({ products }) {
   console.log("ProductsPage" + products);
 
- 
-
-
   return (
-    <div className="scroll-smooth">
-     
-     
+    <Layout>
+
+ 
+    <div className="scroll-smooth min-h-[90vh]">
+      <ItemList items={products} />
     </div>
+    </Layout>
   );
 }
 
@@ -26,36 +23,18 @@ ProductsPage.getInitialProps = async (context) => {
   let products = [];
   //navbar.jsx href={`/products?category=${item.title.toLowerCase()}`}
   const category = context.query.category;
-  const subcategory = context.query.subcategory;
+
   // step 1
   const search = context.query.search;
 
-  //console.log("categoryyyyy", category);
-
-  //console.log("subcategoryyyyy", subcategory);
-
-  //    where("fieldname", "==", fieldValue)
-
   products = await getDocumentsOrder(
-    "products",
+    "abaiat",
     orderBy("timeStamp", "desc"),
 
-    //category i am searching for all products that have a category name / same as subcategory , else null nothing (filteration)
-    category
-      ? where("category", "==", category)
-      : subcategory
-      ? where("subcategory", "==", subcategory)
-      : null
+    category ? where("category", "==", category) : null
   );
 
- 
-
-
-
   return {
-    // props from serverside will go to props in clientside
     products: products,
-
-  
   };
 };

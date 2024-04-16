@@ -18,7 +18,7 @@ const [currentProducts , setCurrentProducts] = useState(products)
 
   const deletePost = async (article) =>{ 
     
-    await deleteDoc(doc(db, "articles",article?.id))
+    await deleteDoc(doc(db, "abaiat",article?.id))
     await  deleteImages(article?.images)
     Message.success(' article deleted successfully')
 
@@ -34,15 +34,15 @@ const [currentProducts , setCurrentProducts] = useState(products)
 
   const columns = [
     {
-      title: "English title",
+      title: "title",
       // same name from database   // category={title ,....}
       dataIndex: "title",
     },
 
     {
-      title: "Arabic Title",
+      title: "Price",
       // same name from database   // category={title ,....}
-      dataIndex: "titlear",
+      dataIndex: "price",
     },
 
     {

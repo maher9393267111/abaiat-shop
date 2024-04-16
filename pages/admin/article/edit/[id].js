@@ -23,7 +23,7 @@ const EditSubPage = ({}) => {
        // setLoading(true);
        setPageLoading(true)
         //setProduct({});
-        const data = await getDocument("articles", id);
+        const data = await getDocument("abaiat", id);
         console.log(data, "fetch categories ====>>> 🎭🎭🎭>", data);
         setProduct(data);
         setPageLoading(false)

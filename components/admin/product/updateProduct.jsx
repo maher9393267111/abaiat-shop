@@ -41,7 +41,7 @@ const UpdateProductMain = ({ product }) => {
       await deleteImages(imagesToDelete);
       const newImagesUploaded = await uploadImages(files);
       values.images = [...values.images, ...newImagesUploaded];
-      await updateDoc(doc(db, "articles", id), values);
+      await updateDoc(doc(db, "abaiat", id), values);
 
 
       message.success("Product Updated Successfully");

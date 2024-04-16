@@ -35,7 +35,7 @@ const AddProductMain = ({  products }) => {
     values.timeStamp = serverTimestamp()
 
 
-    await addDoc(collection(db, "articles"), values);
+    await addDoc(collection(db, "abaiat"), values);
 
 
     message.success(`Product Uploaded Successfully`);

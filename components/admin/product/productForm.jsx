@@ -43,21 +43,27 @@ const RecipeForm = ({
   initialValues,
   files,
   setFiles,
-  
+
   isupdate = false,
   videoFile,
   setVideoFile,
 }) => {
   const [images, setImages] = useState(initialValues?.images || []);
 
-
-
-
-
   const ReactQuill = useMemo(
     () => dynamic(() => import("react-quill"), { ssr: false }),
     []
   );
+
+  const cats = [
+    { id: 1, title: "men" },
+
+    { id: 2, title: "women" },
+
+    { id: 3, title: "children" },
+  ];
+
+  console.log("value-->", initialValues);
 
   return (
     <div className=" w-[80%] mx-auto mt-24 ">
@@ -68,24 +74,18 @@ const RecipeForm = ({
           onFinish={(values) =>
             // name of our function
             onFinish({
-             
               ...values,
               images,
-              
             })
           }
           initialValues={{
             title: initialValues?.title || "",
-            titlear: initialValues?.titlear || "",
-           
+
             desc: initialValues?.desc || "",
-            descar: initialValues?.descar || "",
-           
-        
+            price: initialValues?.price || 0,
+            category: initialValues?.category  || "",
           }}
         >
-          
-
           <Form.Item
             rules={[
               {
@@ -103,64 +103,51 @@ const RecipeForm = ({
             rules={[
               {
                 required: true,
-                message: "Please input your title",
+                message: "Please input your price",
               },
             ]}
-            name="titlear"
-            label="Title arabic"
+            name="price"
+            label="Product price"
           >
             <Input className="py-2" />
           </Form.Item>
 
-         
+          <Form.Item name="category" label="category">
+            <Select placeholder="Select Category">
+              {cats?.map((category) => {
+                return (
+                  <Select.Option key={category?.id} value={category?.title}>
+                    {category?.title}
+                  </Select.Option>
+                );
+              })}
+            </Select>
+          </Form.Item>
 
           <div className=" grid gap-3 md:grid-cols-3 lg:grid-cols-4 grid-cols-1">
             <div className=" flex  md:col-span-2 gap-2 items-center justify-center md:justify-start"></div>
           </div>
 
-          
-            <div>
-              <Form.Item
-                label="Description"
-                name="desc"
-                rules={[
-                  {
-                    required: true,
-                    message: "Please input your description!",
-                  },
-                ]}
-              >
-                {/* <textarea rows={5}></textarea> */}
+          <div>
+            <Form.Item
+              label="Description"
+              name="desc"
+              rules={[
+                {
+                  required: true,
+                  message: "Please input your description!",
+                },
+              ]}
+            >
+              {/* <textarea rows={5}></textarea> */}
 
-                <ReactQuill
-                  modules={modules}
-                  theme="snow"
-                  className=" pb-[10px] border-[2.5px] text-black font-medium rounded-md border-teal-400 hover:border-blue-600"
-                />
-              </Form.Item>
-
-              <Form.Item
-                label="Description arabic"
-                name="descar"
-                rules={[
-                  {
-                    required: true,
-                    message: "Please input your description!",
-                  },
-                ]}
-              >
-                {/* <textarea rows={5}></textarea> */}
-
-                <ReactQuill
-                  modules={modules}
-                  theme="snow"
-                  className=" ql-editor-rt pb-[10px] border-[2.5px] text-black font-medium rounded-md border-teal-400 hover:border-blue-600"
-                />
-              </Form.Item>
-
-              
-            </div>
-         
+              <ReactQuill
+                modules={modules}
+                theme="snow"
+                className=" pb-[10px] border-[2.5px] text-black font-medium rounded-md border-teal-400 hover:border-blue-600"
+              />
+            </Form.Item>
+          </div>
 
           {/* -----images upload----- */}
 
@@ -215,12 +202,6 @@ const RecipeForm = ({
               </div>
             ))}
           </div>
-
-   
-
-      
-
-      
 
           <div className=" ">
             <Button

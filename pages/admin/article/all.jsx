@@ -24,7 +24,7 @@ useEffect(() => {
    setPageLoading(true)
     setProducts([]);
     const data = await getDocumentsOrder(
-      "articles",
+      "abaiat",
       orderBy("timeStamp", "asc"),
      
     );
