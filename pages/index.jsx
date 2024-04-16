@@ -6,17 +6,13 @@ import { getDocuments, getDocumentsOrder } from "@/functions/firebase/getData";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Layout from "@/components/layout";
-import Hero from "@/components/HomeMain/Hero";
-import Companies from '@/components/HomeMain/Companies'
-import Works from '@/components/HomeMain/Works'
+
 import ContactUs from "@/components/HomeMain/contactMain";
-import Vides from '@/components/HomeMain/Videos'
-import ReactPlayer from 'react-player';
-import Test from '@/components/HomeMain/test'
 
 
 import CategoryCards from '@/components/layout/categoryCards'
 import BannerSlider from "@/components/client/layout/BannerSlider";
+import AboutHero from '@/components/HomeMain/AboutHero'
 
 
 export default function Index({}) {
@@ -33,6 +29,7 @@ export default function Index({}) {
       <div className="scroll-smooth mx-6 md:mx-28">
         <BannerSlider/>
        <CategoryCards/>
+       <AboutHero/>
 
 
 

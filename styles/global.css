@@ -254,87 +254,42 @@ body {
 
 
 
-.servicesSwiper {
-  width: 100%;
-  margin-top: 2.4rem;
-  overflow: auto;
-  overflow: visible !important;
-}
-.servicesSwiper .swiper-wrapper {
-  /* overflow: unset; */
-}
-.servicesSwiper .swiper-slide {
-  max-width: 259px;
-}
-.servicesSwiper .swiper-button-next,
-.servicesSwiper .swiper-button-prev {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px !important;
-  height: 30px !important;
-  background-color:  blue;
-  border-radius: 50%;
-  right: 2rem;
-  top: -2rem;
-  left: unset;
-  color: white !important;
-}
-.servicesSwiper .swiper-button-prev {
-  right: 5rem;
+.swiper
+{
+    --swiper-navigation-color:#928656;/* 单独设置按钮颜色 */
 }
 
-/** RTL **/
-.servicesSwiper.swiper-rtl .swiper-button-prev {
-  right: 0rem !important;
-}
-.servicesSwiper.swiper-rtl .swiper-button-next {
-  right: 3.5rem !important;
+.swiper-button-prev
+{
+	color: rgba(54, 54, 60, 0.88);
+    border: 1px solid rgba(129, 129, 131, 0.64);
 }
 
-.servicesSwiper .swiper-button-next:after,
-.servicesSwiper .swiper-button-prev:after {
-  font-size: 1rem;
-  transform: translateX(0.1rem);
-}
-.servicesSwiper .swiper-button-prev:after {
-  transform: translateX(-0.1rem);
-}
-
-.servicesSwiper.swiper-rtl .swiper-button-next:after,
-.servicesSwiper.swiper-rtl .swiper-button-prev:after {
-  font-size: 1rem;
-  transform: translateX(-0.1rem);
-}
-.servicesSwiper.swiper-rtl .swiper-button-prev:after {
-  transform: translateX(0.1rem);
-}
-
-.rsme-embed {
-  height: 90% !important;
+.swiper-button-next
+{
+	color: rgba(54, 54, 60, 0.88);
+    border: 1px solid rgba(129, 129, 131, 0.64);
 }
 
 
-.slick-slider{
-    width: 100%;
-    overflow: hidden;
-    .slick-track{
-        margin: 0;   
-    }
-    .slick-slide {
-        padding: 0 10px;
-        outline: none !important;
-        div{
-            outline: none !important;
-        }
-    }
-    .slick-list {
-        margin: 0 -10px;
-        padding: 5px 0;
-    }
-    .slide-inner{
-        display: flex !important;
-        justify-content: center  !important;
-    }
+.swiper-pagination .swiper-pagination-bullet {
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0);
+  opacity: 1;
+  border-radius: 0;
+  transition: 200ms;
+  position: relative;
+  transform: scale(0.9);
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  z-index: 1;
+  background: #928656;
+  border: 1px solid #928656;
+  transform: scale(1.4);
 }
