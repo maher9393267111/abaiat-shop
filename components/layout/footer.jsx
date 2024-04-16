@@ -73,25 +73,25 @@ const navigation = {
     // },
     {
       name: "Whatsapp",
-      href: "https://wtspee.com/905393466368",
+      href: "https://wtspee.com/905550252552",
       icon: (props) => <FaWhatsapp {...props} />,
     },
     {
       name: "Linkden",
-      href: "https://www.linkedin.com/in/basel-alkasab-075287246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      href: "",
       icon: (props) => <FaLinkedin {...props} />,
     },
     
 
     {
       name: "Snapchat",
-      href: "https://www.snapchat.com/add/baselkasaboglu?share_id=4rFIIlCbTKaGAZL_mmSm1Q&locale=ar_TR@numbers=latn",
+      href: "",
       icon: (props) => <FaSnapchat {...props} />,
     },
 
     {
       name: "Instagram",
-      href: "https://www.instagram.com/baselalkasab?igsh=MTZyZzlvYzdqazdpdw==",
+      href: "",
       icon: (props) => <FaInstagram {...props} />,
     },
   ],
@@ -143,7 +143,7 @@ const Footer = () => {
         <p className="text-center  arabic  mt-6 text-gray-400 shimmer text-2xl font-semibold">
            
 
-           {locale === 'en' ? ' baselkasaboglu'  : 'باسل قصاب اوغلو'}
+       Noura Shop
           {/* Powered by{' '}
           <a
             className="hover:text-green-600 transition"
