@@ -21,10 +21,10 @@ const ItemList = ({ items }) => {
 
       {
         items.length === 0 && (
-          <div className="text-md font-poppins text-dark flex flex-col items-center">
-            Sorry, no items found according to your search.
-            <Link href="/categories" className="pt-2 text-gold underline">
-              Go back to categories
+          <div className="text-2xl  mt-24  flex flex-col items-center">
+        لايوجد اي منتجات
+            <Link href="/products" className="pt-2 text-gold underline">
+              العودة لصفحة المنتجات
             </Link>
           </div>
         )
