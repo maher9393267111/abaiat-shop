@@ -18,23 +18,64 @@ export default function ProductsPage({ products }) {
   );
 }
 
-// serverside
+
+
+
 ProductsPage.getInitialProps = async (context) => {
-  let products = [];
-  //navbar.jsx href={`/products?category=${item.title.toLowerCase()}`}
-  const category = context.query.category;
+  // console.log('Query', context?.query?.country)
+  let products= [];
 
-  // step 1
-  const search = context.query.search;
+  try {
 
-  products = await getDocumentsOrder(
-    "abaiat",
-    orderBy("timeStamp", "desc"),
+    const category = context.query.category;
 
-    category ? where("category", "==", category) : null
-  );
+    // step 1
+    const search = context.query.search;
+  
+    products = await getDocumentsOrder(
+      "abaiat",
+      orderBy("timeStamp", "desc"),
+  
+      category ? where("category", "==", category) : null
+    );
+  
+
+
+  } catch (error) {
+    console.error(error);
+  }
 
   return {
-    products: products,
+    products,
   };
 };
+
+
+
+
+// serverside
+//  ProductsPage.getInitialProps = async (context) => {
+ 
+//   let products = [];
+//   //navbar.jsx href={`/products?category=${item.title.toLowerCase()}`}
+//   const category = context.query.category;
+
+//   // step 1
+//   const search = context.query.search;
+
+//   products = await getDocumentsOrder(
+//     "abaiat",
+//     orderBy("timeStamp", "desc"),
+
+//     category ? where("category", "==", category) : null
+//   );
+
+//   return {
+//     products: products,
+//   };
+
+
+
+
+
+// };
