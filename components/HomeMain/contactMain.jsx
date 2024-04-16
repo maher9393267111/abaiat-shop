@@ -86,7 +86,7 @@ export default function ContactUs() {
   return (
     <div
   
-      className="w-full h-fit arabic md:h-[650px] my-24 text-black px-10 !bg-white"
+      className="w-full h-fit arabic md:h-[650px] my-12 text-black px-10 !bg-white"
       id="contactUs"
     >
       

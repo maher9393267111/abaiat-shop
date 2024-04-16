@@ -103,11 +103,11 @@ export default function ProductSingle() {
               {/* Product info */}
               <div className="mx-auto pt-4 pb-16 px-4 ">
                 <div className="lg:col-spn-2 lg:pr-8">
-                  <h1 className="text-2xl font-bold font-lora tracking-tight text-gold sm:text-3xl">
-                    {product.title}
+                  <h1 className="text-2xl my-2 font-bold font-lora tracking-tight text-gray-900 sm:text-3xl">
+                  <span className=" text-gold"> اسم المنتج:  </span>{product.title} 
                   </h1>
                   <h1 className="text-2xl font-bold font-lora tracking-tight text-gray-900 sm:text-3xl">
-               <span className=" text-gold"> السعر: </span>{product.price} ليرة
+               <span className=" text-gold"> السعر:  </span>{product.price} ليرة
                   </h1>
                 </div>
 
