@@ -69,14 +69,14 @@ export default function ProductSingle() {
                       <img
                         src={product.images[0]}
                         alt={product?.title}
-                        className="object-center  h-[200px] w-[200px] rounded-md object-cover "
+                        className="object-center  h-[130px] md:h-[200px] w-[200px] rounded-md object-cover "
                       />
 
                       {product?.images[1] && (
                         <img
                           src={product.images[1]}
                           alt={product?.title}
-                          className="object-center object-cover h-[200px] w-[200px] rounded-md"
+                          className="object-center object-cover  h-[130px] md:h-[200px] w-[200px] rounded-md"
                         />
                       )}
 
@@ -84,7 +84,7 @@ export default function ProductSingle() {
                         <img
                           src={product.images[2]}
                           alt={product?.title}
-                          className="object-center object-cover h-[200px] w-[200px] rounded-md"
+                          className="object-center object-cover  h-[130px] md:h-[200px] w-[200px] rounded-md"
                         />
                       )}
 
@@ -92,7 +92,7 @@ export default function ProductSingle() {
                         <img
                           src={product.images[3]}
                           alt={product?.title}
-                          className="object-center object-cover h-[200px] w-[200px] rounded-md"
+                          className="object-center object-cover  h-[130px] md:h-[200px] w-[200px] rounded-md"
                         />
                       )}
                     </div>

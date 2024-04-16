@@ -69,7 +69,7 @@ export default function Navbar() {
               {/* <img className="w-18 logo object-cover h-14 mx-3" src="/assets/images/sweetimages/sweetsips-final-logo White.png" alt="" /> */}
               {/* <Icon icon={spaIcon} className=" logo text-4xl mr-2"/> */}
               <span className="text-xl arabic shimmer">
-                Noüra
+                Noura
                 {/* {locale === "en" ? " basel kasaboglu" : "باسل قصاب اوغلو"} */}
               </span>
             </Link>
@@ -152,7 +152,7 @@ export default function Navbar() {
                   >
                     {/* <Icon  icon="lucide:home" className="text-lg leading-lg text-white opacity-75"/>   */}
                     <span className="ml-2 ">
-                      {locale === "en" ? "Dashboard" : "لوحة التحكم"}
+                     لوحة التحكم
                     </span>
                   </Link>
                 </li>

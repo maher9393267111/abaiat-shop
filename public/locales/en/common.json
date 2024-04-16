@@ -1,134 +1,131 @@
 {
-    "title": "Home",
-    "home":"Home",
-    "articles":"articles",
-    "me":"Basil Al-Qassab, founder of the Arab Investors Forum, is an administrator and executive of many investment projects with successful partnerships with investors and businessmen. I have a series of international commercial companies in Turkey, America and the Emirates.",
-    "mecompanies":"My Companies",
-    "works":"My works",
-    "articlesTitle":"My Articles",
-    "sigleArticle":"Article",
-    "contactTitle":"Contact with me",
-    "name":"name",
-    "message":"message",
-    "subject":"subject",
-    "phone":"phone number",
-    "email":"email",
-    "send":"Send",
-     
+  "title": "المنزل",
+  "home":"الرئيسية",
+  "articles":"المقالات",
+  "me":"باسل القصاب مؤسس منتدى المستثمرين العرب إداري وتنفيذي للعديد من المشاريع الإستثمارية بشراكات ناجحة مع المستثمرين ورجال الأعمال العرب والأتراك لدي سلسلة شركات تجارية دولية مرخصة رسمياً  في تركيا ولاية اسطنبول وأميركا ولاية وايومنغ والإمارات في دبي"
+  ,
+  "works":"أعمالي",
+  "mecompanies":"شركاتي",
+  "articlesTitle":"مقالاتي",
+  "sigleArticle":"المقالة",
+  "contactTitle":"تواصل معي",
+  "name":"الاسم الكامل",
+  "message":"الرسالة",
+  "subject":"الموضوع",
+  "phone":"رقم الهاتف",
+  "email":"البريد",
+  "send":"إرسال",
   "companies": [
-    { 
-      
-      "title":"Arabian Investors platform",
-      "imgUrl":"companies/1.jpg",
-      "desc":"A Turkish company accredited to grant citizenship to Caribbean countries and provide all legal advice for businessmen and investors to facilitate their travel to the best countries in the world.",
-      "link":""
-      
-    },
-    {
-      
-      "title":"Darna Realstate",
-      "imgUrl":"companies/2.jpg",
-      "desc":"A leading Emirati company in real estate marketing with ten years of experience with a professional work team from the airport until receiving the property. We have a second branch in Istanbul implementing tourist cottage projects.",
-      "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
-     
-     }
-     ,
-     {
-       
-        "title":"Hiba Butik",
-        "imgUrl":"companies/3.jpg",
-       "desc":"An officially licensed American company, a leader in the retail sector for selling women's clothing through electronic stores. We offer a variety of dresses, sets and galabiyas designed with the latest fashion trends. We strive to meet the needs of modern women and enable them to express their elegance and personal confidence through distinctive, high-quality clothing."
-       ,
-       "link":"https://www.hbshoping.com"
-      
-      }
-   
-   
-      
-  ]
-  
-
-,
-  "myworks": [
-    { 
-      
-      "title":"Investing in Golden",
-      "imgUrl":"/works/golden.jpg",
-      "desc":"Investing in gold through contracts with the best brands in the jewelry field In addition to granting the brand a franchise to any country in the world",
-      "link":""
-      
-    },
-    {
-      
-      "title":"Investing in Resturants",
-      "imgUrl":"/works/rest.jpg",
-      "desc":"Investing in the field of restaurants and cafes by contracting with the best and most successful Turkish brands and granting franchises to all Arab countries.",
-      "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
-     
-     },
-
-     {
-                      
-      "title":"Consultant in brand development",
-      "imgUrl": "/works/brand.jpg",
-      "desc":"Consultant in brand development. We have helped many emerging brand owners in several fields with their entry into the labor market and their success in distinctive marketing methods."
-     ,
-     "isvideo":true,
-     "video":"/works/brandvideo.mp4",
-     "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
-
-     },
-
-     {
-                      
-      "title":"tourist cottage",
-      "imgUrl": "/works/tourism.jpg",
-    "desc":"Implementing tourist cottage projects in many states of Turkey, and we own the management and operation of many cottages in Sapanca, Yalova Izmit and Fethiye.48 tourist huts were implemented during the year 2022"
-     ,
-     "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
-
-     }
-     
-     ,
-     {
-                       
-       "title":"General trade and export to all Arab countries",
-       "imgUrl": "/works/ticaret.jpg",
-     "desc":"We have exported many Turkish products to Libya, Saudi Arabia, Kuwait, Iraq and Palestine The most important of them is the export of furniture, women's and children's clothing, in addition to medical and cosmetic cosmetics"
-    ,
-      "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
- 
-      }
-      ,
+      { 
+        
+        "title":"Arabian Investors platform",
+        "imgUrl":"companies/1.jpg",
+        "desc":"شركة تركية معتمدة بمنح جنسيات دول الكاريبي وتقديم كافة الإستشارات القانونية الخاصة برجال الأعمال والمستثمرين لتسهيل سفرهم إلى أفضل دول العالم"
+        ,
+        "link":"https://www.instagram.com/aip_international?igsh=MW04d3BjYWMxY3Nkdw=="
+      },
       {
-                        
-        "title":"Opening investment funds in the field of real estate investment",
-        "imgUrl": "/works/realstate.jpg",
-      "desc":"We have achieved great successes in partnerships with businessmen and investors by seizing investment opportunities in the real estate sector by purchasing many lands, residential and hotel apartments."
-     ,
-       "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
-  
-       }
-       ,
-       {
-                      
-        "title":"Networking with industrialists",
-        "imgUrl": "/works/factor.jpg",
-      "desc":"We have helped many merchants by networking with factory owners and expanding their businesses in the foreign market. Based on our ten years of commercial experience, we help any merchant learn about the best Turkish factories, shipping, and customs clearance in easy and distinctive ways."
+        
+        "title":"Darna Realstate",
+        "imgUrl": "companies/2.jpg",
+        "desc":"شركة اماراتية رائدة في التسويق العقاري بخبرة عشر أعوام بفريق عمل احترافي من المطار حتى استلام العقار ولدينا الفرع  الثاني في اسطنبول منفذين لمشاريع اكواخ السياحية"
        ,
        "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
-  
-       }
-       
-       
-     
-   
-    
-   
-      
-  ]
 
-    
+       },
+       {
+         
+         "title":"Hiba Butik",
+         "imgUrl": "companies/3.jpg",
+         "desc":"شركة أميركية مرخصة رسمياً رائدة في قطاع التجزئة لبيع الملابس النسائية عبر المتاجر الإلكترونية،حيث نقدم مجموعة متنوعة من الفساتين والأطقم والجلابيات المصممة بأحدث صيحات الموضة ،نحن نسعى جاهدين لتلبية احتياجات النساء العصريات وتمكينهن من التعبير عن أناقتهن وثقتهن الشخصية من خلال ملابس مميزة وعالية الجودة",
+         "link":"https://www.hbshoping.com"
+        
+        }
+      
+                        
+    ]
+    ,
+
+    "myworks": [
+      { 
+        
+        "title":"الاستثمار في مجال الذهب",
+        "imgUrl":"/works/golden.jpg",
+        "desc":"الإستثمار في الذهب بتعاقد مع أفضل أصحاب البراندات في مجال المجوهرات اضافة بمنح البرند فرنشايز لأي دولة بالعالم"
+        ,
+        "link":"https://www.instagram.com/aip_international?igsh=MW04d3BjYWMxY3Nkdw=="
+      },
+      {
+        
+        "title":"الاستثمار في مجال المطاعم",
+        "imgUrl": "/works/rest.jpg",
+        "desc":"الإستثمار بمجال المطاعم والمقاهي بتعاقد مع أفضل وأنجح البراندات التركية ومنح الفرنشايز لكافة الدول العربية"
+       ,
+       "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
+
+       } ,
+            {
+                    
+        "title":" تطوير البرانديغ",
+        "imgUrl": "/works/brand.jpg",
+        "desc":"إستشاري في تطوير البرانديغ قمنا بمساعدة العديد من أصحاب البراندات الناشئة بعدة مجالات بدخولهم لسوق العمل ونجاحهم في طرق التسويق المميزة"
+       ,
+       "isvideo":true,
+       "video":"/works/brandvideo.mp4",
+       "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
+
+       },
+
+       {
+                    
+        "title":"الأكواخ السياحية",
+        "imgUrl": "/works/tourism.jpg",
+      "desc":" تنفيذ مشاريع الأكواخ السياحية في العديد من ولايات التركية ونملك الإدارة والتشغيل للعديد من الأكواخ في صبنجة ويالوا وازميت وفتحية  تم تنفيذ 48 كوخ سياحي خلال سنة 2022"
+       ,
+       "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
+
+       }
+       
+  ,
+  {
+                    
+    "title":"التجارة العامة والتصدير لكافة الدول العربية",
+    "imgUrl": "/works/ticaret.jpg",
+  "desc":"قمنا بتصدير العديد من المنتجات التركية الى ليبيا والسعودية والكويت والعراق وفلسطين ومن أهمها تصدير موبيليا والألبسة النسائية والأطفال أضافة لمستحضرات التجميل الطبية والتجميلية"
+   ,
+   "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
+
+   }
+   ,
+
+   {
+                    
+    "title":"مجال الاستثمار العقاري",
+    "imgUrl": "/works/realstate.jpg",
+  "desc":"حققنا نجاحات كبيرة بشراكات مع رجال الأعمال والمستثمرين بقنص الفرص الاستثمارية في القطاع العقاري بشراء العديد من الأراضي والشقق السكنية والفندقية"
+   ,
+   "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
+
+   }
+   
+       ,
+
+       {
+                    
+        "title":"التشبيك مع الصناعيين",
+        "imgUrl": "/works/factor.jpg",
+      "desc":"ساعدنا عديد من التجار بتشبيك مع أصحاب المصانع وتوسيع أعمالهم في السوق الخارجي وبحكم خبرتنا التجارية عشر اعوام نساعد اي تاجر بتعرف على أفضل  المصانع التركية والشحن وتخليص الجمركي بطرق سهلة ومميزة"
+       ,
+       "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
   
-    }
-    
+       }
+       
+       
+  
+      
+     
+      
+                        
+    ]
+  }
+  
