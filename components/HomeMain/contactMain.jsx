@@ -92,93 +92,25 @@ export default function ContactUs() {
       
       <div className="m-auto w-[90%] !bg-white h-full flex flex-col md:flex-row items-center justify-center rounded-2xl">
       
-        <div
-          className="relative h-[300px] md:h-full w-full md:w-[30%] z-20 rounded-l-2xl"
-          style={{
-            backgroundImage: `url("/me4.jpg")`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            borderRadius: "1rem",
-          }}
-        >
-          <div className="absolute top-0 left-0 w-full h-full bg-primary2 rounded-2xl bg-opacity-50 z-10 "></div>
-          <div className="absolute h-full md:h-full flex flex-row items-end z-20">
-            {/* <div className="flex flex-col pl-6 text-white pb-4">
-              <Fade>
-                <div className="text-2xl md:text-3xl gil-med text">
-                  Spotmies
-                </div>
-                <p className="gil-light text-xs opacity-70 w-[70%]">
-                  AU incubation centre, Andhra university, Visakhapatnam -
-                  530003,
-                  <br />
-                  +91 8341980196
-                  <br />
-                  info@spotmies.com
-                </p>
-              </Fade>
-              <div className="flex flex-row w-[50%] pt-4 justify-between">
-                <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer ">
-                  <Fade left>
-                    {" "}
-                    <AiOutlineTwitter
-                      size="1.6rem"
-                      onClick={() => socialMediaRedirect("twitter")}
-                    />
-                  </Fade>
-                </div>
-
-                <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer">
-                  <Fade left>
-                    {" "}
-                    <FaLinkedinIn
-                      size="1.4rem"
-                      onClick={() => socialMediaRedirect("linkedin")}
-                    />
-                  </Fade>
-                </div>
-
-                <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer">
-                  <Fade left>
-                    <AiFillInstagram
-                      size="1.6rem"
-                      onClick={() => socialMediaRedirect("instagram")}
-                    />
-                  </Fade>
-                </div>
-
-                <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer">
-                  <Fade left>
-                    <FaYoutube
-                      size="1.4rem"
-                      onClick={() => socialMediaRedirect("youtube")}
-                    />
-                  </Fade>
-                </div>
-              </div>
-            </div> */}
+    
 
 
-
-          </div>
-        </div>
        
-        <div className="h-fit md:h-full w-full md:w-[70%] gil-reg">
+        <div className="h-fit md:h-full w-full md:w-[90%] gil-reg">
           <div className="h-full w-full m-auto p-4 md:p-8">
           {/* <Fade direction="right"> */}
             <form
               className="flex flex-col items-center justify-between form"
               onSubmit={(e) => Submit(e)}
             >
-              <div className="flex flex-co items-star  w-[90%] md:w-[90%]">
+              <div className="flex flex-co items-star  w-[99%] md:w-[99%]">
                 
               <h1 className="arabic w-full text-3xl md:text-4xl font-semibold shimmer  text-center ">
           {t("contactTitle")}
         </h1>
                 
               </div>
-              <div className="w-[90%] flex flex-row items-center justify-between pt-6">
+              <div className="w-[99%] flex flex-row items-center justify-between pt-6">
            
                   <div className="relative mb-6 w-[100%]">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -208,7 +140,7 @@ export default function ContactUs() {
                 </div> */}
               </div>
               {/* <Fade bottom> */}
-                <div className="relative mb-6 w-[90%]">
+                <div className="relative mb-6 w-[99%]">
                   <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                     <AiOutlineMail />
                   </div>
@@ -224,7 +156,7 @@ export default function ContactUs() {
                 </div>
               {/* </Fade> */}
               {/* <Fade bottom> */}
-                <div className="relative mb-6 w-[90%]">
+                <div className="relative mb-6 w-[99%]">
                   <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                     <AiOutlineMobile />
                   </div>
@@ -239,7 +171,7 @@ export default function ContactUs() {
                 </div>
               {/* </Fade> */}
               {/* <Fade bottom> */}
-                <div className="relative mb-6 w-[90%]">
+                <div className="relative mb-6 w-[99%]">
                   <textarea
                     name="Message"
                     ref={descriptionRef}
@@ -260,7 +192,7 @@ export default function ContactUs() {
               {/* </Fade> */}
 
               {/* <Fade bottom> */}
-                <div className="flex flex-row justify-end w-[90%]">
+                <div className="flex flex-row justify-end w-[99%]">
                   <button className="gil-reg  lg:text-lg flex flex-row items-center justify-center hover:bg-primary hover:text-white  min-w-[120px] lg:min-w-[140px] lg:min-h-[50px] min-h-[40px] mt-4   border shimme !bg-primary border-primary w-full h-12 !rounded-xl text-xl text-white">
                     {t("send")}
                   </button>

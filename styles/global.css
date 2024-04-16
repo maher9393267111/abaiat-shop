@@ -314,3 +314,27 @@ body {
 .rsme-embed {
   height: 90% !important;
 }
+
+
+.slick-slider{
+    width: 100%;
+    overflow: hidden;
+    .slick-track{
+        margin: 0;   
+    }
+    .slick-slide {
+        padding: 0 10px;
+        outline: none !important;
+        div{
+            outline: none !important;
+        }
+    }
+    .slick-list {
+        margin: 0 -10px;
+        padding: 5px 0;
+    }
+    .slide-inner{
+        display: flex !important;
+        justify-content: center  !important;
+    }
+}
