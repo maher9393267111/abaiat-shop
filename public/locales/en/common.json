@@ -1,0 +1,134 @@
+{
+    "title": "Home",
+    "home":"Home",
+    "articles":"articles",
+    "me":"Basil Al-Qassab, founder of the Arab Investors Forum, is an administrator and executive of many investment projects with successful partnerships with investors and businessmen. I have a series of international commercial companies in Turkey, America and the Emirates.",
+    "mecompanies":"My Companies",
+    "works":"My works",
+    "articlesTitle":"My Articles",
+    "sigleArticle":"Article",
+    "contactTitle":"Contact with me",
+    "name":"name",
+    "message":"message",
+    "subject":"subject",
+    "phone":"phone number",
+    "email":"email",
+    "send":"Send",
+     
+  "companies": [
+    { 
+      
+      "title":"Arabian Investors platform",
+      "imgUrl":"companies/1.jpg",
+      "desc":"A Turkish company accredited to grant citizenship to Caribbean countries and provide all legal advice for businessmen and investors to facilitate their travel to the best countries in the world.",
+      "link":""
+      
+    },
+    {
+      
+      "title":"Darna Realstate",
+      "imgUrl":"companies/2.jpg",
+      "desc":"A leading Emirati company in real estate marketing with ten years of experience with a professional work team from the airport until receiving the property. We have a second branch in Istanbul implementing tourist cottage projects.",
+      "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
+     
+     }
+     ,
+     {
+       
+        "title":"Hiba Butik",
+        "imgUrl":"companies/3.jpg",
+       "desc":"An officially licensed American company, a leader in the retail sector for selling women's clothing through electronic stores. We offer a variety of dresses, sets and galabiyas designed with the latest fashion trends. We strive to meet the needs of modern women and enable them to express their elegance and personal confidence through distinctive, high-quality clothing."
+       ,
+       "link":"https://www.hbshoping.com"
+      
+      }
+   
+   
+      
+  ]
+  
+
+,
+  "myworks": [
+    { 
+      
+      "title":"Investing in Golden",
+      "imgUrl":"/works/golden.jpg",
+      "desc":"Investing in gold through contracts with the best brands in the jewelry field In addition to granting the brand a franchise to any country in the world",
+      "link":""
+      
+    },
+    {
+      
+      "title":"Investing in Resturants",
+      "imgUrl":"/works/rest.jpg",
+      "desc":"Investing in the field of restaurants and cafes by contracting with the best and most successful Turkish brands and granting franchises to all Arab countries.",
+      "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
+     
+     },
+
+     {
+                      
+      "title":"Consultant in brand development",
+      "imgUrl": "/works/brand.jpg",
+      "desc":"Consultant in brand development. We have helped many emerging brand owners in several fields with their entry into the labor market and their success in distinctive marketing methods."
+     ,
+     "isvideo":true,
+     "video":"/works/brandvideo.mp4",
+     "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
+
+     },
+
+     {
+                      
+      "title":"tourist cottage",
+      "imgUrl": "/works/tourism.jpg",
+    "desc":"Implementing tourist cottage projects in many states of Turkey, and we own the management and operation of many cottages in Sapanca, Yalova Izmit and Fethiye.48 tourist huts were implemented during the year 2022"
+     ,
+     "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
+
+     }
+     
+     ,
+     {
+                       
+       "title":"General trade and export to all Arab countries",
+       "imgUrl": "/works/ticaret.jpg",
+     "desc":"We have exported many Turkish products to Libya, Saudi Arabia, Kuwait, Iraq and Palestine The most important of them is the export of furniture, women's and children's clothing, in addition to medical and cosmetic cosmetics"
+    ,
+      "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
+ 
+      }
+      ,
+      {
+                        
+        "title":"Opening investment funds in the field of real estate investment",
+        "imgUrl": "/works/realstate.jpg",
+      "desc":"We have achieved great successes in partnerships with businessmen and investors by seizing investment opportunities in the real estate sector by purchasing many lands, residential and hotel apartments."
+     ,
+       "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
+  
+       }
+       ,
+       {
+                      
+        "title":"Networking with industrialists",
+        "imgUrl": "/works/factor.jpg",
+      "desc":"We have helped many merchants by networking with factory owners and expanding their businesses in the foreign market. Based on our ten years of commercial experience, we help any merchant learn about the best Turkish factories, shipping, and customs clearance in easy and distinctive ways."
+       ,
+       "link":"https://www.instagram.com/darna.real.estate?igsh=MXVucTk4emNkMnoxNA=="
+  
+       }
+       
+       
+     
+   
+    
+   
+      
+  ]
+
+    
+  
+    }
+    
