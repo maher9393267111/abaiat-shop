@@ -4,6 +4,11 @@ import Image from 'next/image'
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
 import {  useEffect, useState } from 'react'
+import {
+
+	FaWhatsapp,
+
+  } from "react-icons/fa";
 
 
 export default function SingleProduct({ id, title, category, price, img }) {
@@ -15,8 +20,9 @@ export default function SingleProduct({ id, title, category, price, img }) {
 
 	return (
 		<div className='flex flex-col'>
-			<NextLink href={`/products/single?id=${id}`} passHref>
+			
 				<div className='group cursor-pointer'>
+				<NextLink href={`/products/single?id=${id}`} passHref>
 					<div className='relative w-full h-80 lg:h-90  rounded-lg overflow-hidden'>
 						<Image
 							width={300}
@@ -27,9 +33,16 @@ export default function SingleProduct({ id, title, category, price, img }) {
 							className='!w-full !h-full object-center object-cover  hover:opacity-75'
 						/>
 					</div>
+
+</NextLink>
+
+
+<NextLink href={`/products/single?id=${id}`} passHref>
 					<h3 className='mt-4 mb-4 font-bold text-lg text-gray-700 line-clamp-1 hover:text-gray-900'>
 						{title}
 					</h3>
+
+					</NextLink>
                     {/* <h3 className='mt-4 text-sm text-gray-700 line-clamp-1 hover:text-gray-900'>
 						{category}
 					</h3> */}
@@ -58,15 +71,36 @@ export default function SingleProduct({ id, title, category, price, img }) {
 					<p className='mt-1 text-lg font-medium text-gray-900'>
 						{price} ليرة تركي
 					</p>
+
+
+					<div className=' '>
+					<a
+            target="_blank"
+              
+              href={"https://wtspee.com/905550252552"}
+              className="text-primary hover:text-primary"
+            >
+					<button
+				
+				className='relative bloc  w-full mt-4 bg-green-600 border border-transparent rounded-md py-3 px-8 items-center justify-center text-xl font-medium text-white hover:bg-green-500 flex justify-center gap-3'
+				// onClick={() => handleAddToCart(product)}
+				>
+
+<FaWhatsapp className='text-3xl' />
+
+
+			<span>
+			تواصل وتس اب
+			
+				
+				</span>	
+			</button>
+
+			</a>
+					</div>
 				</div>
-			</NextLink>
-{/* 
-			<button
-				disabled={!isInStock}
-				className='relative flex bg-gray-200 border border-transparent rounded-md py-2 px-8 items-center justify-center text-sm font-medium text-gray-900 hover:bg-gray-300'
-				onClick={() => handleAddToCart(product)}>
-				Add to bag
-			</button> */}
+		
+
 		</div>
 	)
 }
