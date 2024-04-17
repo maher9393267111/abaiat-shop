@@ -193,7 +193,7 @@ export default function ContactUs() {
 
               {/* <Fade bottom> */}
                 <div className="flex flex-row justify-end w-[99%]">
-                  <button className="gil-reg  lg:text-lg flex flex-row items-center justify-center hover:bg-primary hover:text-white  min-w-[120px] lg:min-w-[140px] lg:min-h-[50px] min-h-[40px] mt-4   border shimme !bg-primary border-primary w-full h-12 !rounded-xl text-xl text-white">
+                  <button className="gil-reg  lg:text-lg flex flex-row items-center justify-center hover:bg-gold hover:text-white  min-w-[120px] lg:min-w-[140px] lg:min-h-[50px] min-h-[40px] mt-4   border shimme !bg-gold border-gold w-full h-12 !rounded-xl text-xl text-white">
                     {t("send")}
                   </button>
                   {/* <HoverButton

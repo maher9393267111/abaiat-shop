@@ -274,8 +274,8 @@ body {
 
 .swiper-pagination .swiper-pagination-bullet {
   cursor: pointer;
-  width: 14px;
-  height: 14px;
+  width: 11px;
+  height: 11px;
   background: rgba(255, 255, 255, 0);
   opacity: 1;
   border-radius: 0;

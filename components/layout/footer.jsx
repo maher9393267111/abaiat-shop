@@ -132,7 +132,7 @@ const Footer = () => {
             >
               <span className="sr-only">{item.name}</span>
               <item.icon
-                className="h-8 w-8  text-purpl-100 text-primary    "
+                className="h-8 w-8  text-purpl-100 text-gold    "
                 aria-hidden="true"
               />
             </a>
