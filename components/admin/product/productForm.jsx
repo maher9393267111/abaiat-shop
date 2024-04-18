@@ -94,7 +94,7 @@ const RecipeForm = ({
               },
             ]}
             name="title"
-            label="Title english"
+            label="Title "
           >
             <Input className="py-2" />
           </Form.Item>
