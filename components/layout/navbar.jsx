@@ -68,11 +68,12 @@ export default function Navbar() {
             >
               {/* <img className="w-18 logo object-cover h-14 mx-3" src="/assets/images/sweetimages/sweetsips-final-logo White.png" alt="" /> */}
               {/* <Icon icon={spaIcon} className=" logo text-4xl mr-2"/> */}
-              <span className="text-xl arabic shimmer">
+              <span className="text-2xl arabic shimmer">
                 {/* Noura */}
 
-<img className="w-[62px] h-14 object-cover object-center rounded-md" src="/logo.png" alt="" />
+{/* <img className="w-[62px] h-14 object-cover object-center rounded-md" src="/logo.png" alt="" /> */}
 
+Noüra
 
                 {/* {locale === "en" ? " basel kasaboglu" : "باسل قصاب اوغلو"} */}
               </span>

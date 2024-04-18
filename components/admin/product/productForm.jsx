@@ -124,9 +124,7 @@ const RecipeForm = ({
             </Select>
           </Form.Item>
 
-          <div className=" grid gap-3 md:grid-cols-3 lg:grid-cols-4 grid-cols-1">
-            <div className=" flex  md:col-span-2 gap-2 items-center justify-center md:justify-start"></div>
-          </div>
+      
 
           <div>
             <Form.Item
@@ -144,7 +142,8 @@ const RecipeForm = ({
               <ReactQuill
                 modules={modules}
                 theme="snow"
-                className=" pb-[10px] border-[2.5px] text-black font-medium rounded-md border-teal-400 hover:border-blue-600"
+                className=" pb-[10px] mb-4  lg:!h-[300px]  text-black font-medium rounded-md
+                border-teal-400 hover:border-blue-600"
               />
             </Form.Item>
           </div>

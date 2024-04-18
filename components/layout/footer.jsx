@@ -139,22 +139,12 @@ const Footer = () => {
           ))}
         </div>
 
-
+{/* 
         <p className="text-center  arabic  mt-6 text-gray-400 shimmer text-2xl font-semibold">
            
 
-       Noura Shop
-          {/* Powered by{' '}
-          <a
-            className="hover:text-green-600 transition"
-            href="http://tealpod.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Tealpod
-          </a>
-          . */}
-        </p>
+     
+        </p> */}
       </div>
     </footer>
   );
