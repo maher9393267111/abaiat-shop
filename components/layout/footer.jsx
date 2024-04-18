@@ -63,7 +63,7 @@ const navigation = {
   social: [
     {
       name: "Tiktok",
-      href: "https://www.tiktok.com/@basel.alkasab?_t=8kqWVZj1wGM&_r=1",
+      href: "",
       icon: (props) => <FaTiktok{...props} />,
     },
     // {
