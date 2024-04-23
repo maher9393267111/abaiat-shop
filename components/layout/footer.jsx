@@ -11,8 +11,10 @@ import {
   FaFacebook,
   FaLinkedin,
   FaSnapchat ,
-   FaTiktok 
+   FaTiktok ,
+ 
 } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 import { useRouter } from "next/router";
 
 const navigation = {
@@ -63,7 +65,7 @@ const navigation = {
   social: [
     {
       name: "Tiktok",
-      href: "",
+      href: "https://www.tiktok.com/@noura.tekstil?_t=8kfgtaJPBPa&_r=1",
       icon: (props) => <FaTiktok{...props} />,
     },
     // {
@@ -71,28 +73,35 @@ const navigation = {
     //   href: "https://www.facebook.com/profile.php?id=61554600908983",
     //   icon: (props) => <FaFacebook {...props} />,
     // },
+ 
     {
       name: "Whatsapp",
       href: "https://wtspee.com/905550252552",
       icon: (props) => <FaWhatsapp {...props} />,
     },
-    {
-      name: "Linkden",
-      href: "",
-      icon: (props) => <FaLinkedin {...props} />,
-    },
+    // {
+    //   name: "Linkden",
+    //   href: "",
+    //   icon: (props) => <FaLinkedin {...props} />,
+    // },
     
 
     {
       name: "Snapchat",
-      href: "",
+      href: "https://www.snapchat.com/add/mkahbbaz2?share_id=BGdyKsJNReqNNo8a-2-bhQ&locale=ar_TR@numbers=latn",
       icon: (props) => <FaSnapchat {...props} />,
     },
 
     {
       name: "Instagram",
-      href: "",
+      href: "https://instagram.com/noura_tekstil?igshid=YmMyMTA2M2Y=",
       icon: (props) => <FaInstagram {...props} />,
+    },
+
+    {
+      name: "Location",
+      href: "https://maps.app.goo.gl/aXBAwVCTtc8xjY2Y6?g_st=iwb",
+      icon: (props) => <FaLocationDot {...props} />,
     },
   ],
 };
@@ -137,6 +146,18 @@ const Footer = () => {
               />
             </a>
           ))}
+
+
+                    {/* <a 
+                    
+                    href="https://maps.app.goo.gl/hvgzitchHdTduCF38?share"
+                    
+                    class="h-8 w-8  text-purpl-100 text-gold" target="_blank" rel="noopener noreferrer"><FaFacebook  /></a> */}
+                
+
+
+
+
         </div>
 
 {/* 
