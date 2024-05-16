@@ -16,12 +16,12 @@ if(pageLoading) {
 
 
   return (
-    <div dir={'rtl'}>
+    <div className='' dir={'rtl'}>
 
 <Navbar/>
 
 
-<div>
+<div className='min-h-[80vh] '>
     {children}
 </div>
 

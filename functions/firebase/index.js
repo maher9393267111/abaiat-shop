@@ -7,15 +7,9 @@ import {getStorage} from 'firebase/storage';
 
 const firebaseConfig = {
  
-  // apiKey: "AIzaSyDlBPya-45ajS_9x27lL_6TBcWNmMhk8L4",
-  // authDomain: "posts-app-63482.firebaseapp.com",
-  // databaseURL: "https://posts-app-63482.firebaseio.com",
-  // projectId: "posts-app-63482",
-  // storageBucket: "posts-app-63482.appspot.com",
-  // messagingSenderId: "476032390285",
-  // appId: "1:476032390285:web:da399a93d74c618f7cbec4",
-  // measurementId: "G-XQBTD6HZSM",
+ 
 
+// projectName ---> myfirst
 
   apiKey: "AIzaSyBI7p9VcmEmdtogk3GqjUNIrz_kNT1u14g",
   authDomain: "precise-reality-324621.firebaseapp.com",
